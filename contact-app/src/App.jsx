@@ -1,21 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
+import Contact from './Contact';
 
-const Contact = (props) => {
-  const isDeletable = true;
+// const Contact = (props) => {
+//   const isDeletable = true;
 
-  return (
-    <div className="friend-item">
-      {/* replace the values by a jsx expression */}
-      <h3>{props.name}</h3>
-      <h4>{props.email}</h4>
-      <h4>{props.phone}</h4>
-      {/* show the button only if isDeletable is true */}
-      {props.isDeletable ? <button>Delete</button> : ''}
-    </div>
-  );
-};
+//   return (
+//     <div className="friend-item">
+//       {/* replace the values by a jsx expression */}
+//       <h3>{props.name}</h3>
+//       <h4>{props.email}</h4>
+//       <h4>{props.phone}</h4>
+//       {/* show the button only if isDeletable is true */}
+//       {props.isDeletable ? <button>Delete</button> : ''}
+//     </div>
+//   );
+// };
 
 export const App = () => (
   // write your HTML code here
